@@ -1,0 +1,293 @@
+# WEBPIXELIA
+# Copyright (C) 2022
+# This file is distributed under the same license as the Table Price ACF package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Table Price ACF 4.0.0\n"
+"Report-Msgid-Bugs-To: https://webpixelia.com\n"
+"POT-Creation-Date: 2022-08-05 20:12+00:00\n"
+"PO-Revision-Date: 2023-02-13 09:36+00:00\n"
+"Last-Translator: Webpixelia <contact@webpixelia.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: table-price-acf\n"
+
+#. Plugin URI of the plugin
+msgid "https://webpixelia.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add custom table price plan with ACF Field"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jonathan Dhermand"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.webpixelia.com/"
+msgstr ""
+
+#: price-plan.php:18
+msgid "You can't access this page"
+msgstr ""
+
+#: includes/base.php:61
+#, php-format
+msgid "Unsupported PHP version Min required PHP Version: \"%s\""
+msgstr ""
+
+#: includes/base.php:123
+#, php-format
+msgid ""
+"You must install and activate <a class=\"thickbox open-plugin-details-modal"
+"\" href=\"%s\"><strong>ACF Pro</strong></a> plugin to make the <strong>Table "
+"Price ACF</strong> work."
+msgstr ""
+
+#. Plugin Name of the plugin
+#: includes/functions.php:30
+msgid "Table Price ACF"
+msgstr ""
+
+#: includes/functions.php:31
+msgid "Table Price ACF Settings"
+msgstr ""
+
+#: includes/functions.php:38
+msgid "Table Price ACF Content"
+msgstr ""
+
+#: includes/functions.php:39
+msgid "Content"
+msgstr ""
+
+#: includes/functions.php:45
+msgid "Table Price ACF Design"
+msgstr ""
+
+#: includes/functions.php:46
+msgid "Design"
+msgstr ""
+
+#: includes/functions.php:56
+msgid "Price Plan ACF"
+msgstr ""
+
+#: includes/functions.php:60
+msgid "Main currency"
+msgstr ""
+
+#: includes/functions.php:76 includes/functions.php:162
+msgid "ISO Code"
+msgstr ""
+
+#: includes/functions.php:96 includes/functions.php:182
+msgid "Symbol"
+msgstr ""
+
+#: includes/functions.php:118
+msgid "Other currency"
+msgstr ""
+
+#: includes/functions.php:138
+msgid "Second currency"
+msgstr ""
+
+#: includes/functions.php:204
+msgid "Exchange rate"
+msgstr ""
+
+#: includes/functions.php:232
+msgid "Period multiplier"
+msgstr ""
+
+#: includes/functions.php:252
+msgid "Main frequency"
+msgstr ""
+
+#: includes/functions.php:265 includes/functions.php:294
+msgid "Week"
+msgstr ""
+
+#: includes/functions.php:266 includes/functions.php:295
+msgid "Month"
+msgstr ""
+
+#: includes/functions.php:267 includes/functions.php:296
+msgid "Quarter"
+msgstr ""
+
+#: includes/functions.php:268 includes/functions.php:297
+msgid "Biannual"
+msgstr ""
+
+#: includes/functions.php:269 includes/functions.php:298
+msgid "Annual"
+msgstr ""
+
+#: includes/functions.php:281
+msgid "Second frequency"
+msgstr ""
+
+#: includes/functions.php:310 includes/functions.php:574
+msgid "Plan"
+msgstr ""
+
+#: includes/functions.php:326 includes/functions.php:410
+msgid "Add an item"
+msgstr ""
+
+#: includes/functions.php:331
+msgid "Plan title"
+msgstr ""
+
+#: includes/functions.php:352
+msgid "Plan description"
+msgstr ""
+
+#: includes/functions.php:373
+msgid "Price"
+msgstr ""
+
+#: includes/functions.php:394
+msgid "Options plan"
+msgstr ""
+
+#: includes/functions.php:416
+msgid "Available ?"
+msgstr ""
+
+#: includes/functions.php:437
+msgid "Label option"
+msgstr ""
+
+#: includes/functions.php:460
+msgid "Featured"
+msgstr ""
+
+#: includes/functions.php:481
+msgid "Link to buy"
+msgstr ""
+
+#: includes/functions.php:494
+msgid "Link to purchase or subscribe to this product/service"
+msgstr ""
+
+#: includes/functions.php:499
+msgid "Label link"
+msgstr ""
+
+#: includes/functions.php:529
+msgid "Slogan"
+msgstr ""
+
+#: includes/functions.php:570
+msgid "Price Plan ACF Design"
+msgstr ""
+
+#: includes/functions.php:591
+msgid "Background color"
+msgstr ""
+
+#: includes/functions.php:609
+msgid "Title color"
+msgstr ""
+
+#: includes/functions.php:627
+msgid "Description color"
+msgstr ""
+
+#: includes/functions.php:645
+msgid "Price color"
+msgstr ""
+
+#: includes/functions.php:663
+msgid "Font color"
+msgstr ""
+
+#: includes/functions.php:681
+msgid "Separate bar color"
+msgstr ""
+
+#: includes/functions.php:699
+msgid "Featured plan"
+msgstr ""
+
+#: includes/functions.php:716
+msgid "Background color feat"
+msgstr ""
+
+#: includes/functions.php:734
+msgid "Title color feat"
+msgstr ""
+
+#: includes/functions.php:752
+msgid "Description color feat"
+msgstr ""
+
+#: includes/functions.php:770
+msgid "Price color feat"
+msgstr ""
+
+#: includes/functions.php:788
+msgid "Font color feat"
+msgstr ""
+
+#: includes/functions.php:806
+msgid "Separate bar color feat"
+msgstr ""
+
+#: includes/functions.php:824
+msgid "Font size"
+msgstr ""
+
+#: includes/functions.php:841
+msgid "Title font size"
+msgstr ""
+
+#: includes/functions.php:863
+msgid "Description font size"
+msgstr ""
+
+#: includes/functions.php:885
+msgid "Price font size"
+msgstr ""
+
+#: includes/functions.php:907
+msgid "Body font size"
+msgstr ""
+
+#: includes/functions.php:929
+msgid "Separate border with"
+msgstr ""
+
+#: includes/functions.php:951
+msgid "Button"
+msgstr ""
+
+#: includes/functions.php:968
+msgid "Background button"
+msgstr ""
+
+#: includes/functions.php:986
+msgid "Font color button"
+msgstr ""
+
+#: includes/functions.php:1004
+msgid "Background button hover"
+msgstr ""
+
+#: includes/functions.php:1022
+msgid "Font color button hover"
+msgstr ""
+
+#: templates/shortcode.php:66
+msgid "Show prices in"
+msgstr ""
+
+#: templates/shortcode.php:115
+msgid "Don't forget to build your pricing table"
+msgstr ""
