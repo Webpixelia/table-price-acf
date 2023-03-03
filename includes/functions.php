@@ -12,8 +12,8 @@ function wpdocs_register_scripts() {
 	wp_enqueue_script( 'toggle' );
 	// Get translations of string labels for toogles.js
 	wp_localize_script('toggle', 'toggle_js_vars', array(
-			'main_frequency' => get_field('main_frequency', 'option')["label"],
-			'second_frequency' => get_field('second_frequency', 'option')["label"],
+			'main_frequency' => get_field('main_frequency', 'option')["label"] ?? null,
+			'second_frequency' => get_field('second_frequency', 'option')["label"] ?? null,
 		)
 	);
 }
@@ -1071,7 +1071,7 @@ function translate_acf_fields( $field ) {
   // Translate backend labels/titles/instuctions
   $field['label']        = __( $field['label'], 'table-price-acf' );
   $field['instructions'] = __( $field['instructions'], 'table-price-acf' );
-  $choices = $field['choices'];
+  $choices = $field['choices'] ?? null;
   if ($choices) :
 	foreach ( $choices as $choice => $value ) {
 		$field['choices'][$choice] = __( $field['choices'][$choice], 'table-price-acf' );

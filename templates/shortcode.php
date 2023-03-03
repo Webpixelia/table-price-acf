@@ -91,8 +91,8 @@ function price_table_function() {
 					<h3 class="pack"><?= $title ?></h3>
 					<p class="desc_plan"><?= $description ?></p>
 					<ul class="list_pricing_table">
-						<li id="formule" class="price-eur price bottom-bar"><span class="priceNb"><?= $price ?></span> <?= $FirstCurrency['symbol_cur'] ?>/<span class="period"><?= $MainFrequency["label"] ?></span></li>
-						<li id="formuleCur" class="price-currency price bottom-bar"><span class="priceNb"><?= round($price*$ExchangeRate) ?></span> <?= $SecondCurrency['symbol_cur'] ?>/<span class="period"><?= $MainFrequency["label"] ?></span></li>
+						<li id="formule" class="price-eur price bottom-bar"><span class="priceNb"><?= $price ?></span> <?= $FirstCurrency['symbol_cur'] ?? null ?>/<span class="period"><?= $MainFrequency["label"] ?? null ?></span></li>
+						<li id="formuleCur" class="price-currency price bottom-bar"><span class="priceNb"><?= round($price*$ExchangeRate) ?></span> <?= $SecondCurrency['symbol_cur'] ?? null ?>/<span class="period"><?= $MainFrequency["label"] ?? null ?></span></li>
 						<?php // Loop over sub repeater rows.
 						if( have_rows('options_plan') ):
 							while( have_rows('options_plan') ) : the_row();
