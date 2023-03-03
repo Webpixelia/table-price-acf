@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Tags: ACF, Price table, ACF Pro, Price
 Requires at least: 5.0
 Tested up to: 6.1.1
-Stable tag: 4.0.1
+Stable tag: 4.0.2
 Requires PHP: 7.3
 
 Build beautiful price table with ACF: Customize title, content, price, period, link and design to sell your products or services
