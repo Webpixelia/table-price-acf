@@ -51,6 +51,9 @@ By downloading the ZIP file
 
 == Changelog ==
 
+= 4.0.2 =
+* Fix: Minor bug JS
+
 = 4.0.1 =
 * Fix: Bug with translations
 

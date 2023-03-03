@@ -4,7 +4,7 @@ Plugin Name: Table Price ACF
 Plugin URI: https://webpixelia.com/
 Description: Add custom table price plan with ACF Field
 Author: Jonathan Dhermand
-Version: 4.0.1
+Version: 4.0.2
 Author URI: https://www.webpixelia.com/
 License: GPLv2
 Text Domain: table-price-acf
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'TABLE_PRICE_ACF_VERSION' ) ) {
-	define( 'TABLE_PRICE_ACF_VERSION', '4.0.1' );
+	define( 'TABLE_PRICE_ACF_VERSION', '4.0.2' );
 	define( 'TABLE_PRICE_ACF_FILE', __FILE__ );
 	define( 'TABLE_PRICE_ACF_PATH', dirname( TABLE_PRICE_ACF_FILE ) );
 	define( 'TABLE_PRICE_ACF_INCLUDES', TABLE_PRICE_ACF_PATH . '/includes' );

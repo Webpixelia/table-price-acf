@@ -17,6 +17,7 @@ const checkboxCurrency = document.getElementById("checkboxCurrency");
 const eur = document.getElementsByClassName('price-eur');
 const otherCurrency = document.getElementsByClassName('price-currency');
 
+if (checkboxCurrency) {
 checkboxCurrency.addEventListener("click", () => {
 	Array.from(otherCurrency).forEach((x) => {
 		x.style.display = x.style.display === "block" ? "none" : "block"
@@ -24,4 +25,5 @@ checkboxCurrency.addEventListener("click", () => {
 	Array.from(eur).forEach((y) => {
 		y.style.display = y.style.display == "none" ? "block" : "none"
 	});
-});
+})
+};
